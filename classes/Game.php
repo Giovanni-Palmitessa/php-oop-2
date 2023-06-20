@@ -6,6 +6,23 @@ class Game extends Product
     private string $color;
     private string $type;
 
+    // constructor
+    public function __construct(
+        string $category,
+        string $title,
+        string $description,
+        string $price,
+        string $urlImage,
+        string $material,
+        string $color,
+        string $type
+    ) {
+        parent::__construct($category, $title, $description, $price, $urlImage);
+        $this->material = $material;
+        $this->color = $color;
+        $this->type = $type;
+    }
+
     // GET AND SET FUNCTIONS
     // material
 
