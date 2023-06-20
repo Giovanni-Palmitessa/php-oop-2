@@ -50,4 +50,13 @@ $products = [
         "XXL",
         "Angolare",
     ),
+    new Product(
+        "Gatto",
+        "Cuccia in Pile Grigio",
+        "Soffice cuccia pelosa in grado di offrire a cani e gatti un posticino morbido e accogliente in cui riposarsi.",
+        "€25,99",
+        "assets/img/cuccia2.jpg",
+        "M",
+        "Ovale",
+    ),
 ];
