@@ -1,7 +1,7 @@
 <?php
 
 $products = [
-    new Product(
+    new Food(
         "Cane",
         "Crocchette Monge",
         "Le crocchette di Monge Salmone e Riso All Breeds Adult sono un alimento completo per cani adulti di tutte le taglie formulato con un'unica fonte proteica: il salmone.",
@@ -11,7 +11,7 @@ $products = [
         300,
         5,
     ),
-    new Product(
+    new Food(
         "Gatto",
         "Cibo Umido Felix",
         "Felix Le Ghiottonerie Multipack 44X85G Mixed Selection è una gamma di deliziose ricette per gatti.",
@@ -21,7 +21,7 @@ $products = [
         500,
         1,
     ),
-    new Product(
+    new Game(
         "Gatto",
         "Yes! Gatto Pallina",
         "Gioco per gatti Zolux Pirata, con catnip in dotazione per attirare l'attenzione dell'animale e invogliarlo a giocare.",
@@ -31,7 +31,7 @@ $products = [
         "Rosso",
         "Palla",
     ),
-    new Product(
+    new Game(
         "Cane",
         "Gioco Cane Peluche Atlantide",
         "Gioco Cane Peluche Atlantide Pesce Pagliaccio Simpatici e morbidi peluche per cani ispiranti al mondo sottomarino con squeak integrato.",
@@ -41,7 +41,7 @@ $products = [
         "Azzurro",
         "Peluches",
     ),
-    new Product(
+    new Shelters(
         "Cane",
         "Cuccia per Cane Angolare in Similpelle",
         "La cuccia angolare di colore borgo natural di Luna&Teo della linea Imperial è stata realizzata in similpelle per garantire al tuo cane il massimo comfort grazie ai materiali di ottima qualità.",
@@ -50,7 +50,7 @@ $products = [
         "XXL",
         "Angolare",
     ),
-    new Product(
+    new Shelters(
         "Gatto",
         "Cuccia in Pile Grigio",
         "Soffice cuccia pelosa in grado di offrire a cani e gatti un posticino morbido e accogliente in cui riposarsi.",

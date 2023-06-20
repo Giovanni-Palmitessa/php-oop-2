@@ -24,7 +24,9 @@ include __DIR__ . '/db.php';
             <?php foreach ($products as $product) { ?>
                 <div class="card">
                     <img src="<?= $product->urlImage ?>" alt="<?= $product->title ?>">
-                    <p><?= $product->getCalories() ?></p>
+                    <?php if ($product instanceof Food) { ?>
+                        <p><?= $product->getCalories() ?></p>
+                    <?php } ?>
                 </div>
             <?php } ?>
         </div>
