@@ -14,5 +14,8 @@ class Product
     {
         $this->animal = $animal;
         $this->title = $title;
+        $this->description = $description;
+        $this->price = $price;
+        $this->urlImage = $urlImage;
     }
 }
