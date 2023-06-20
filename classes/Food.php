@@ -3,8 +3,11 @@
 class Food extends Product
 {
     private string $ingredients;
-    private string $calories;
+    private int $calories;
     private int $weight;
+
+    // GET AND SET FUNCTIONS
+    // ingredients
 
     public function setIngredients($ingredients)
     {
@@ -13,8 +16,22 @@ class Food extends Product
         }
         $this->ingredients = $ingredients;
     }
-    public function getName()
+    public function getIngredients()
     {
         return $this->ingredients;
+    }
+
+    // calories
+
+    public function setCalories($calories)
+    {
+        if (strlen($calories) < 5) {
+            die('Nome troppo corto');
+        }
+        $this->calories = $calories;
+    }
+    public function getCalories()
+    {
+        return $this->calories;
     }
 }
