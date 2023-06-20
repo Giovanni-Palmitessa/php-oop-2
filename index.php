@@ -1,3 +1,7 @@
+<?php
+include __DIR__ . '/classes/Product.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
