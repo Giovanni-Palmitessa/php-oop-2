@@ -25,13 +25,27 @@ class Food extends Product
 
     public function setCalories($calories)
     {
-        if (strlen($calories) < 5) {
-            die('Nome troppo corto');
+        if ($calories <= 0) {
+            die('Le calorie devono essere maggiori di 0!');
         }
         $this->calories = $calories;
     }
     public function getCalories()
     {
         return $this->calories;
+    }
+
+    // weight
+
+    public function setWeight($weight)
+    {
+        if ($weight === 0) {
+            die('Il peso non può essere 0!');
+        }
+        $this->weight = $weight;
+    }
+    public function getWeight()
+    {
+        return $this->weight;
     }
 }
