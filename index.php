@@ -1,5 +1,6 @@
 <?php
 include __DIR__ . '/classes/Product.php';
+include __DIR__ . '/classes/Food.php';
 ?>
 
 <!DOCTYPE html>
