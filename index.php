@@ -23,7 +23,8 @@ include __DIR__ . '/db.php';
         <div class="cards-container">
             <?php foreach ($products as $product) { ?>
                 <div class="card">
-
+                    <img src="<?= $product->urlImage ?>" alt="<?= $product->title ?>">
+                    <p><?= $product->getCalories() ?></p>
                 </div>
             <?php } ?>
         </div>
