@@ -4,6 +4,7 @@ class Game extends Product
 {
     private string $material;
     private string $color;
+    private string $type;
 
     // GET AND SET FUNCTIONS
     // ingredients
@@ -26,5 +27,16 @@ class Game extends Product
     public function getColor()
     {
         return $this->color;
+    }
+
+    // type
+
+    public function setType($type)
+    {
+        $this->type = $type;
+    }
+    public function getType()
+    {
+        return $this->type;
     }
 }
