@@ -3,7 +3,7 @@
 $products = [
     new Product(
         "Cane",
-        "Crocchette",
+        "Crocchette Monge",
         "Le crocchette di Monge Salmone e Riso All Breeds Adult sono un alimento completo per cani adulti di tutte le taglie formulato con un'unica fonte proteica: il salmone.",
         "€48,90",
         "assets/img/crocchette1.jpg",
@@ -13,7 +13,7 @@ $products = [
     ),
     new Product(
         "Gatto",
-        "Cibo Umido",
+        "Cibo Umido Felix",
         "Felix Le Ghiottonerie Multipack 44X85G Mixed Selection è una gamma di deliziose ricette per gatti.",
         "€18,99",
         "assets/img/ciboUmido1.jpg",
@@ -30,5 +30,15 @@ $products = [
         "Plastica",
         "Rosso",
         "Palla",
+    ),
+    new Product(
+        "Cane",
+        "Gioco Cane Peluche Atlantide",
+        "Gioco Cane Peluche Atlantide Pesce Pagliaccio Simpatici e morbidi peluche per cani ispiranti al mondo sottomarino con squeak integrato.",
+        "€8,50",
+        "assets/img/gioco2.jpg",
+        "Cotone",
+        "Azzurro",
+        "Peluches",
     ),
 ];
