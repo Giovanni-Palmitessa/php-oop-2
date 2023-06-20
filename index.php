@@ -27,6 +27,10 @@ include __DIR__ . '/db.php';
                     <?php if ($product instanceof Food) { ?>
                         <p><?= $product->getCalories() ?></p>
                     <?php } ?>
+
+                    <?php if ($product instanceof Game) { ?>
+                        <p><?= $product->getMaterial() ?></p>
+                    <?php } ?>
                 </div>
             <?php } ?>
         </div>
