@@ -41,4 +41,13 @@ $products = [
         "Azzurro",
         "Peluches",
     ),
+    new Product(
+        "Cane",
+        "Cuccia per Cane Angolare in Similpelle",
+        "La cuccia angolare di colore borgo natural di Luna&Teo della linea Imperial è stata realizzata in similpelle per garantire al tuo cane il massimo comfort grazie ai materiali di ottima qualità.",
+        "€79,90",
+        "assets/img/cuccia1.jpg",
+        "XXL",
+        "Angolare",
+    ),
 ];
