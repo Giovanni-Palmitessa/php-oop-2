@@ -6,6 +6,23 @@ class Food extends Product
     private int $calories;
     private int $weight;
 
+    // constructor
+    public function __construct(
+        string $category,
+        string $title,
+        string $description,
+        string $price,
+        string $urlImage,
+        string $ingredients,
+        int $calories,
+        int $weight
+    ) {
+        parent::__construct($category, $title, $description, $price, $urlImage);
+        $this->ingredients = $ingredients;
+        $this->calories = $calories;
+        $this->weight = $weight;
+    }
+
     // GET AND SET FUNCTIONS
     // ingredients
 
