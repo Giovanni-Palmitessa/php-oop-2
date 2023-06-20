@@ -1,5 +1,5 @@
 <?php
 class Product
 {
-    public string $projectedForAnimals;
+    public string $animal;
 }
