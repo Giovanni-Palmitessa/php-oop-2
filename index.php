@@ -3,6 +3,7 @@ include __DIR__ . '/classes/Product.php';
 include __DIR__ . '/classes/Food.php';
 include __DIR__ . '/classes/Game.php';
 include __DIR__ . '/classes/Shelters.php';
+include __DIR__ . '/db.php';
 ?>
 
 <!DOCTYPE html>
