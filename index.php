@@ -31,6 +31,10 @@ include __DIR__ . '/db.php';
                     <?php if ($product instanceof Game) { ?>
                         <p><?= $product->getMaterial() ?></p>
                     <?php } ?>
+
+                    <?php if ($product instanceof Shelters) { ?>
+                        <p><?= $product->getShape() ?></p>
+                    <?php } ?>
                 </div>
             <?php } ?>
         </div>
