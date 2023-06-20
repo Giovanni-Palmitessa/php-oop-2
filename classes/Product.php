@@ -12,5 +12,7 @@ class Product
 
     public function __construct(string $animal, string $title, string $description, string $price, string $urlImage)
     {
+        $this->animal = $animal;
+        $this->title = $title;
     }
 }
