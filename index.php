@@ -19,7 +19,15 @@ include __DIR__ . '/db.php';
 </head>
 
 <body>
+    <div class="container">
+        <div class="cards-container">
+            <?php foreach ($products as $product) { ?>
+                <div class="card">
 
+                </div>
+            <?php } ?>
+        </div>
+    </div>
 </body>
 
 </html>
