@@ -2,7 +2,7 @@
 // instance variables
 class Food extends Product
 {
-    public string $ingredients;
-    public string $calories;
-    public int $weight;
+    private string $ingredients;
+    private string $calories;
+    private int $weight;
 }
