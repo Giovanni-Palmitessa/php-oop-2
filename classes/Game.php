@@ -7,7 +7,7 @@ class Game extends Product
     private string $type;
 
     // GET AND SET FUNCTIONS
-    // ingredients
+    // material
 
     public function setMaterial($material)
     {
