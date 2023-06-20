@@ -3,6 +3,7 @@
 class Shelters extends Product
 {
     private string $size;
+    private string $shape;
 
     // GET AND SET FUNCTIONS
     // size
@@ -14,5 +15,16 @@ class Shelters extends Product
     public function getSize()
     {
         return $this->size;
+    }
+
+    // shape
+
+    public function setShape($shape)
+    {
+        $this->shape = $shape;
+    }
+    public function getShape()
+    {
+        return $this->shape;
     }
 }
