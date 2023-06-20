@@ -21,4 +21,14 @@ $products = [
         500,
         1,
     ),
+    new Product(
+        "Gatto",
+        "Yes! Gatto Pallina",
+        "Gioco per gatti Zolux Pirata, con catnip in dotazione per attirare l'attenzione dell'animale e invogliarlo a giocare.",
+        "€1,90",
+        "assets/img/gioco1.jpg",
+        "Plastica",
+        "Rosso",
+        "Palla",
+    ),
 ];
