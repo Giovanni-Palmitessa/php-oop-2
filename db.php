@@ -2,7 +2,7 @@
 
 $products = [
     new Food(
-        "Cane",
+        "Cane <i class=\"fa-solid fa-dog\"></i>",
         "Crocchette Monge",
         "Le crocchette di Monge Salmone e Riso All Breeds Adult sono un alimento completo per cani adulti di tutte le taglie formulato con un'unica fonte proteica: il salmone.",
         "€48,90",
@@ -32,7 +32,7 @@ $products = [
         "Palla",
     ),
     new Game(
-        "Cane",
+        "Cane <i class=\"fa-solid fa-dog\"></i>",
         "Gioco Cane Peluche Atlantide",
         "Gioco Cane Peluche Atlantide Pesce Pagliaccio Simpatici e morbidi peluche per cani ispiranti al mondo sottomarino con squeak integrato.",
         "€8,50",
@@ -42,7 +42,7 @@ $products = [
         "Peluches",
     ),
     new Shelter(
-        "Cane",
+        "Cane <i class=\"fa-solid fa-dog\"></i>",
         "Cuccia per Cane Angolare in Similpelle",
         "La cuccia angolare di colore borgo natural di Luna&Teo della linea Imperial è stata realizzata in similpelle per garantire al tuo cane il massimo comfort grazie ai materiali di ottima qualità.",
         "€79,90",
