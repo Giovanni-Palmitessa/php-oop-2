@@ -21,12 +21,13 @@ include __DIR__ . '/db.php';
 
 <body>
     <div class="container">
+        <h1 class="text-center py-3">Pet Shop</h1>
         <div class="cards-container d-flex flex flex-wrap">
             <?php foreach ($products as $product) { ?>
                 <div class="card">
                     <img src="<?= $product->urlImage ?>" class="card-img-top" alt="<?= $product->title ?>">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $product->title ?></h5>
+                        <h4 class="card-title"><?= $product->title ?></h4>
                         <p class="card-text"><?= $product->description ?></p>
                     </div>
                     <ul class="list-group list-group-flush">
