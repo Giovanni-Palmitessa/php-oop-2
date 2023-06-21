@@ -20,7 +20,7 @@ include __DIR__ . '/db.php';
 
 <body>
     <div class="container">
-        <div class="cards-container">
+        <div class="cards-container d-flex flex flex-wrap">
             <?php foreach ($products as $product) { ?>
                 <div class="card">
                     <img src="<?= $product->urlImage ?>" alt="<?= $product->title ?>">
