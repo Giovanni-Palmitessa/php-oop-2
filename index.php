@@ -60,6 +60,8 @@ include __DIR__ . '/db.php';
                             <li class="list-group-item">Materiale: <?= $product->getMaterial() ?></li><?php } ?>
                         <?php if ($product instanceof Game) { ?>
                             <li class="list-group-item">Colore: <?= $product->getColor() ?></li><?php } ?>
+                        <?php if ($product instanceof Game) { ?>
+                            <li class="list-group-item">Tipo: <?= $product->getType() ?></li><?php } ?>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link">Aggiungi al carrello</a>
