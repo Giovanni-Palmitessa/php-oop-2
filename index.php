@@ -53,7 +53,7 @@ include __DIR__ . '/db.php';
                             <li class="list-group-item">Forma: <?= $product->getShape() ?></li><?php } ?>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Aggiungi al carrello</a>
+                        <a href="#" class="card-link"><button type="button" class="btn btn-success">Aggiungi al carrello <i class="fa-solid fa-cart-shopping"></i></button></a>
                         <a href="#" class="card-link">Compralo subito</a>
                     </div>
                 </div>

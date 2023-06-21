@@ -12,7 +12,7 @@ $products = [
         5,
     ),
     new Food(
-        "Gatto",
+        "Gatto <i class=\"fa-solid fa-cat\"></i>",
         "Cibo Umido Felix",
         "Felix Le Ghiottonerie Multipack 44X85G Mixed Selection è una gamma di deliziose ricette per gatti.",
         "€18,99",
@@ -22,7 +22,7 @@ $products = [
         1,
     ),
     new Game(
-        "Gatto",
+        "Gatto <i class=\"fa-solid fa-cat\"></i>",
         "Yes! Gatto Pallina",
         "Gioco per gatti Zolux Pirata, con catnip in dotazione per attirare l'attenzione dell'animale e invogliarlo a giocare.",
         "€1,90",
@@ -51,7 +51,7 @@ $products = [
         "Angolare",
     ),
     new Shelter(
-        "Gatto",
+        "Gatto <i class=\"fa-solid fa-cat\"></i>",
         "Cuccia in Pile Grigio",
         "Soffice cuccia pelosa in grado di offrire a cani e gatti un posticino morbido e accogliente in cui riposarsi.",
         "€25,99",
