@@ -22,23 +22,6 @@ include __DIR__ . '/db.php';
     <div class="container">
         <div class="cards-container d-flex flex flex-wrap">
             <?php foreach ($products as $product) { ?>
-                <div class="card d-flex flex-column align-items-center">
-                    <img src="<?= $product->urlImage ?>" alt="<?= $product->title ?>">
-                    <?php if ($product instanceof Food) { ?>
-                        <p><?= $product->getCalories() ?></p>
-                    <?php } ?>
-
-                    <?php if ($product instanceof Game) { ?>
-                        <p><?= $product->getMaterial() ?></p>
-                    <?php } ?>
-
-                    <?php if ($product instanceof Shelter) { ?>
-                        <p><?= $product->getShape() ?></p>
-                    <?php } ?>
-                </div>
-            <?php } ?>
-
-            <?php foreach ($products as $product) { ?>
                 <div class="card">
                     <img src="<?= $product->urlImage ?>" class="card-img-top" alt="<?= $product->title ?>">
                     <div class="card-body">
@@ -62,6 +45,9 @@ include __DIR__ . '/db.php';
                             <li class="list-group-item">Colore: <?= $product->getColor() ?></li><?php } ?>
                         <?php if ($product instanceof Game) { ?>
                             <li class="list-group-item">Tipo: <?= $product->getType() ?></li><?php } ?>
+                        <!-- SHELTER -->
+                        <?php if ($product instanceof Shelter) { ?>
+                            <li class="list-group-item">Taglia: <?= $product->getSize() ?></li><?php } ?>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link">Aggiungi al carrello</a>
