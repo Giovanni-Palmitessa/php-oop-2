@@ -46,9 +46,13 @@ include __DIR__ . '/db.php';
                         <p class="card-text"><?= $product->description ?></p>
                     </div>
                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Questo prodotto è per il tuo <?= $product->animal ?> </li>
                         <li class="list-group-item">Prezzo: <?= $product->price ?></li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">
+                            <?php if ($product instanceof Food) { ?>
+                                Calorie: <?= $product->getCalories() ?> Kcal
+                            <?php } ?>
+                        </li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link">Card link</a>
