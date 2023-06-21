@@ -22,7 +22,7 @@ include __DIR__ . '/db.php';
     <div class="container">
         <div class="cards-container d-flex flex flex-wrap">
             <?php foreach ($products as $product) { ?>
-                <div class="card">
+                <div class="card d-flex flex-column align-items-center">
                     <img src="<?= $product->urlImage ?>" alt="<?= $product->title ?>">
                     <?php if ($product instanceof Food) { ?>
                         <p><?= $product->getCalories() ?></p>
