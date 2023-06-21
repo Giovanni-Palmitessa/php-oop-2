@@ -34,7 +34,7 @@ include __DIR__ . '/db.php';
                         <li class="list-group-item">Prezzo: <?= $product->price ?></li>
                         <!-- FOOD -->
                         <?php if ($product instanceof Food) { ?>
-                            <li class="list-group-item">Calorie: <?= $product->getCalories() ?> Kcal</li><?php } ?>
+                            <li class="list-group-item">Calorie: <?= $product->getCalories() ?> Kcal <i class="fa-solid fa-fire"></i></li><?php } ?>
                         <?php if ($product instanceof Food) { ?>
                             <li class="list-group-item">Ingredienti: <?= $product->getIngredients() ?></li><?php } ?>
                         <?php if ($product instanceof Food) { ?>
