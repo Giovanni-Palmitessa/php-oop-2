@@ -1,6 +1,6 @@
 <?php
 // instance variables
-class Shelters extends Product
+class Shelter extends Product
 {
     private string $size;
     private string $shape;

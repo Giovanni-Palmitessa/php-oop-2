@@ -41,7 +41,7 @@ $products = [
         "Azzurro",
         "Peluches",
     ),
-    new Shelters(
+    new Shelter(
         "Cane",
         "Cuccia per Cane Angolare in Similpelle",
         "La cuccia angolare di colore borgo natural di Luna&Teo della linea Imperial è stata realizzata in similpelle per garantire al tuo cane il massimo comfort grazie ai materiali di ottima qualità.",
@@ -50,7 +50,7 @@ $products = [
         "XXL",
         "Angolare",
     ),
-    new Shelters(
+    new Shelter(
         "Gatto",
         "Cuccia in Pile Grigio",
         "Soffice cuccia pelosa in grado di offrire a cani e gatti un posticino morbido e accogliente in cui riposarsi.",

@@ -2,7 +2,7 @@
 include __DIR__ . '/classes/Product.php';
 include __DIR__ . '/classes/Food.php';
 include __DIR__ . '/classes/Game.php';
-include __DIR__ . '/classes/Shelters.php';
+include __DIR__ . '/classes/Shelter.php';
 include __DIR__ . '/db.php';
 ?>
 
@@ -32,7 +32,7 @@ include __DIR__ . '/db.php';
                         <p><?= $product->getMaterial() ?></p>
                     <?php } ?>
 
-                    <?php if ($product instanceof Shelters) { ?>
+                    <?php if ($product instanceof Shelter) { ?>
                         <p><?= $product->getShape() ?></p>
                     <?php } ?>
                 </div>
