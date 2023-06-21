@@ -37,6 +37,25 @@ include __DIR__ . '/db.php';
                     <?php } ?>
                 </div>
             <?php } ?>
+
+            <?php foreach ($products as $product) { ?>
+                <div class="card">
+                    <img src="<?= $product->urlImage ?>" class="card-img-top" alt="<?= $product->title ?>">
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $product->title ?></h5>
+                        <p class="card-text"><?= $product->description ?></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><?= $product->price ?></li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            <?php } ?>
         </div>
     </div>
 </body>
