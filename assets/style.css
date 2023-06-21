@@ -1,0 +1,11 @@
+.cards-container {
+    gap: 3rem;
+}
+
+.card {
+    width: calc((100% - 3rem) / 2);
+}
+
+.card img {
+    width: 100%;
+}
