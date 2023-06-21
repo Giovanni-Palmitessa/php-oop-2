@@ -48,12 +48,18 @@ include __DIR__ . '/db.php';
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Questo prodotto è per il tuo <?= $product->animal ?> </li>
                         <li class="list-group-item">Prezzo: <?= $product->price ?></li>
+                        <!-- FOOD -->
                         <?php if ($product instanceof Food) { ?>
                             <li class="list-group-item">Calorie: <?= $product->getCalories() ?> Kcal</li><?php } ?>
                         <?php if ($product instanceof Food) { ?>
                             <li class="list-group-item">Ingredienti: <?= $product->getIngredients() ?></li><?php } ?>
                         <?php if ($product instanceof Food) { ?>
                             <li class="list-group-item">Peso: <?= $product->getWeight() ?> KG</li><?php } ?>
+                        <!-- GAME -->
+                        <?php if ($product instanceof Game) { ?>
+                            <li class="list-group-item">Materiale: <?= $product->getMaterial() ?></li><?php } ?>
+                        <?php if ($product instanceof Game) { ?>
+                            <li class="list-group-item">Colore: <?= $product->getColor() ?></li><?php } ?>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link">Aggiungi al carrello</a>
