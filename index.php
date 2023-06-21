@@ -54,7 +54,7 @@ include __DIR__ . '/db.php';
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link"><button type="button" class="btn btn-success">Aggiungi al carrello <i class="fa-solid fa-cart-shopping"></i></button></a>
-                        <a href="#" class="card-link">Compralo subito</a>
+                        <a href="#" class="card-link"><button type="button" class="btn btn-warning">Compralo subito <i class="fa-solid fa-euro-sign"></i></button></a>
                     </div>
                 </div>
             <?php } ?>
